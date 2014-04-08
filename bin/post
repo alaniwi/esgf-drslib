@@ -69,7 +69,7 @@ noop=${noop:-0}
 ((noop)) && echo "Noop is ON"
 
 manifest_file=${manifest_file:-$0.manif}
-esg_dist_url="rainbow.llnl.gov:/pcmdi_web/dist"
+esg_dist_url="dist.ceda.ac.uk:esgf_web/dist"
 current_dir=${current_dir:="esg_node"}
 
 fail=0
